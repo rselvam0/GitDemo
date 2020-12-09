@@ -1,4 +1,6 @@
 from selenium import webdriver
+import pytest
+import time
 
 chrome_option = webdriver.ChromeOptions()
 chrome_option.add_argument("--disable-gpu")

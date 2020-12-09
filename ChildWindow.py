@@ -1,5 +1,6 @@
 from selenium import webdriver
 import pytest
+import time
 
 driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver")
 driver.get("https://the-internet.herokuapp.com/windows")
