@@ -2,6 +2,8 @@ from selenium import webdriver
 import pytest
 import time
 
+#This code is added by Architect in devlop branch
+
 chrome_option = webdriver.ChromeOptions()
 chrome_option.add_argument("--disable-gpu")
 chrome_option.add_argument("headless")  # this will invoke the browser in the backend

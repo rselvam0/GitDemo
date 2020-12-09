@@ -2,6 +2,8 @@ from selenium import webdriver
 import pytest
 import time
 
+#This code added by Architect in develop branch
+
 driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver")
 driver.get("https://the-internet.herokuapp.com/windows")
 
