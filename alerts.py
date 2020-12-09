@@ -4,6 +4,8 @@ import time
 
 # this code is added by Architect in develop branch
 
+# this code is added by Architect from CET zone in develop branch.  
+
 driver = webdriver.Chrome(executable_path= "C:\Drivers\chromedriver")
 driver.get("https://rahulshettyacademy.com/AutomationPractice/")
 
