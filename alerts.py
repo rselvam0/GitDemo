@@ -1,4 +1,5 @@
 from selenium import webdriver
+import pytest
 
 driver = webdriver.Chrome(executable_path= "C:\Drivers\chromedriver")
 driver.get("https://rahulshettyacademy.com/AutomationPractice/")
